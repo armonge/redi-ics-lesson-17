@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script>
+        /*
+         This is how you would include Javascript directly on the Page
+         (Also this is a comment)
+         */
+         // alert("Javascript!") // and another comment
+        // Again, the best resource on Javascript (ECMAScript)
+        // https://developer.mozilla.org/en-US/docs/Web/JavaScript
+    </script>
+</head>
+
+<body>
+    <form method="post">
+        <h1>Some information about Someone</h1>
+        <div>
+            <label for="name">Name:</label>
+            <input id="name" type="text" name="name" />
+        </div>
+        <div>
+            <label for="age">Age:</label>
+            <input id="age" type="number" name="age" min="0" />
+        </div>
+        <div>
+            <label for="birthdate">Birthdate:</label>
+            <input id="birthdate" type="date" name="birthdate" />
+        </div>
+        <fieldset>
+            <legend>Gender</legend>
+            <div>
+                <label for="gender-male">Male</label>
+                <input id="gender-male" type="radio" name="gender" value="male" />
+            </div>
+            <div>
+                <label for="gender-female">Female</label>
+                <input id="gender-female" type="radio" name="gender" value="female" />
+            </div>
+            <div>
+                <label for="gender-diverse">Diverse</label>
+                <input id="gender-diverse" type="radio" name="gender" value="diverse" />
+            </div>
+        </fieldset>
+        <div class='buttons'>
+            <!-- We now have classes -->
+            <input type="submit" value="Submit" class="submit-button" />
+            <input type="reset" value="Reset" class="reset-button" />
+        </div>
+    </form>
+
+    <!-- 
+    You can also include scripts in the body 
+
+    We usually do it like this so the browser can render everything without waiting for 
+    the Javascript to load
+    -->
+    <!-- <script src="01-variables.js"></script> -->
+    <!-- <script src="02-functions.js"></script> -->
+    <!-- <script src="03-loops.js"></script> -->
+    <!-- <script src="04-dom.js"></script> -->
+</body>
+
+</html>

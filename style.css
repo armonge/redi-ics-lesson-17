@@ -1,0 +1,43 @@
+html {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+h1 {
+    color: gray;
+}
+
+h1:hover {
+    color: blue;
+}
+
+form>div,
+form>fieldset {
+    margin-bottom: 1em;
+}
+
+label {
+    width: 80px;
+    display: inline-block;
+}
+
+form>div:last-child {
+    text-align: right;
+}
+
+.submit-button {
+    color: white;
+    background-color: blue;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.reset-button {
+    color: white;
+    background-color: red;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+}
